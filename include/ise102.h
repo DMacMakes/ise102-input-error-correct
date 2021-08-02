@@ -2,7 +2,7 @@
 #define ISE102_H
 
 //#include <iostream>
-//#include "scn/all.h"
+#include "scn/all.h"
 #include <cstdlib>
 #include <chrono>
 #include <thread>
@@ -15,8 +15,8 @@ using fmt::format;
 using fmt::emphasis;
 using fmt::fg;
 using fmt::bg;
-//using scn::input;
-//using scn::prompt;
+using scn::input;
+using scn::prompt;
 using fmt::color;
 using namespace std::literals::chrono_literals;
 #include <cstdlib>
