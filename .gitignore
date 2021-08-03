@@ -354,6 +354,9 @@ MigrationBackup/
 #build folders
 /build/
 
+#Visual studio code config
+/.vscode
+
 #executables
 /input-validated
 /input-validated.exe
