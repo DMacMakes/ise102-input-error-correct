@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 #include "include/ise102.h"
+// There are two CONIO or console io libraries. Comment out the one you don't want.
+// Use conio_linux.h on LINUX (including replit)
+#include "conio_linux.h"
+// Use conio.h on WINDOWS (Visual Studio Community, open the sln file)
+// #include <conio.h>
 using namespace std;
 
 int getGuessFromUser()
@@ -30,6 +35,7 @@ int main() {
 
   print("Welcome to guessy world!\n\n");
 
+
   int guess = getGuessFromUser();
 
   auto title_style = makeStyle( color::dark_violet,
@@ -37,11 +43,11 @@ int main() {
                                 emphasis::bold ); 
   
   std::string name = "Damo";
-  delay(200);
-  // Using fmt's print. 
   print(title_style, "So, {0}.. You're going with {1}, is that right?\n", name, guess);
-  delay(1500);
+  delay(500);
   print("Ok mate.\n\n");
+
+  // Using fmt's print. 
   
   // Foreground and background colours plus, if you're on linus, emphasise with bold/underline etc.
 /*  auto error_style = makeStyle( color::beige,
