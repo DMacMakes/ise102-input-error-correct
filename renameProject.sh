@@ -11,4 +11,4 @@ new_name=$1
 echo "Renaming $old_name to $new_name"
 
 rename ''s/$old_name/$new_name/'' * 
-sed -i ''s/$old_name/$new_name/g'' *.sln *.vcxproj* Makefile .replit .gitignore
+sed -i ''s/$old_name/$new_name/g'' *.sln *.vcxproj* Makefile .gitignore .replit
