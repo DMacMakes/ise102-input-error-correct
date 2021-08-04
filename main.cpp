@@ -1,11 +1,6 @@
 #include <iostream>
 #include <string>
 #include "include/ise102.h"
-// There are two CONIO or console io libraries. Comment out the one you don't want.
-// Use conio_linux.h on LINUX (including replit)
-#include "conio_linux.h"
-// Use conio.h on WINDOWS (Visual Studio Community, open the sln file)
-// #include <conio.h>
 using namespace std;
 
 int getGuessFromUser()
